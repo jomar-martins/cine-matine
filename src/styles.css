@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.full-width {
+    width: 100%;
+    }
+
+.width90 {
+    width: 90%;
+    max-width: 900px;
+    }
+.width90 {
+    width: 90%;
+    max-width: 900px;
+    }
+
+.login {
+    min-width: 300px;
+    max-width: 400px;
+    }
+    

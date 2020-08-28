@@ -1,0 +1,34 @@
+<mat-toolbar class="app-title">Cadastrar Filme</mat-toolbar>
+<div class="main-div">
+  <mat-card class="width90"  >
+    <form autocomplete="off" novalidate  >
+      <mat-card-content>
+        <div><mat-form-field class="full-width">
+          <input matInput placeholder="Título Original" name="nomeOriginal">          
+        </mat-form-field></div>
+        <div><mat-form-field class="full-width">
+          <input matInput placeholder="Título no Brasil" name="nomeBrasil">          
+        </mat-form-field></div>
+        <div><mat-form-field class="full-width">
+          <input matInput placeholder="Diretor" name="diretor">          
+        </mat-form-field></div>
+        <div><mat-form-field class="full-width">
+          <input matInput placeholder="Link para Diretor" name="linkDiretor">          
+        </mat-form-field></div>
+        <div><mat-form-field class="full-width">
+          <input matInput placeholder="Link para IMDb" name="linkImdb">          
+        </mat-form-field></div>
+        <div><mat-form-field class="full-width">
+          <input matInput placeholder="Link Alternativo" name="linkAlt">          
+        </mat-form-field></div>
+        <div><mat-form-field class="full-width">
+          <input matInput placeholder="Link para Treiler do Youtube" name="linkYoutube">          
+        </mat-form-field></div>
+      </mat-card-content>
+      <mat-card-actions>
+        <button type="submit" color="accent" mat-raised-button>Salvar</button>
+        <button type="reset" color="warn" mat-raised-button>Cancelar</button>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+</div>
